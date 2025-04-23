@@ -21,6 +21,8 @@ endif()
 
 set(NAM_DEPS_PATH "${CMAKE_CURRENT_SOURCE_DIR}/Dependencies")
 
+add_subdirectory(tools)
+
 # Explicitly tell CMake dependencies are
 include_directories(${NAM_DEPS_PATH}/eigen)
 include_directories(${NAM_DEPS_PATH}/nlohmann)
